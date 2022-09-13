@@ -1,21 +1,18 @@
 #include "main.h"
 /**
- * _abs - prints absolute value of an integer
- * @i: this is the parameter
- * Return: Integer
+ * _abs - check r
+ * @r: integer input
+ * Description: function returns absolute value of number
+ * Return: Absolute value
  */
-int _abs(int i)
+int _abs(int r)
 {
-	if (i > 0)
+	if (r >= 0)
 	{
-		return (i);
-	}
-	else if (i < 0)
-	{
-		return (-1);
+		return (r);
 	}
 	else
 	{
-		return (i);
+		return (r * -1);
 	}
 }
